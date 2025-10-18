@@ -14,3 +14,8 @@ five.forEach((list, index) => {
 });
 
 document.body.appendChild(ul);
+
+
+ul.children[2].textContent = "Det här ändrades i JS";
+
+ul.children[4].remove(); 
